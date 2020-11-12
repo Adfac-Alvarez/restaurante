@@ -1,0 +1,18 @@
+.navfooter{
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+}
+.quienessomos{
+   margin:2rem 0;
+   display:flex;
+   background-color: violet;
+   width:auto;
+   height: 60px;
+   border-radius: 10%;
+   align-items: center;
+   
+
+}

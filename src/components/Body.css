@@ -1,0 +1,57 @@
+.body {
+    width:85vw;
+    margin:10vh auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.body-imagen {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-repeat: no-repeat;
+    border-radius: 20%;
+    position: relative;
+    text-align: center;
+    cursor: default;
+  
+    
+    
+}
+.body-imagen img {
+    width:170px;
+    height: 200px;
+    border-radius: 20%;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+    transition: all 0.1s ease-in-out;
+    overflow: hidden;
+}
+.body-imagen img:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+.boton:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.boton  {
+    
+    transition: all 0.1s ease-in-out;
+    font-family: 'Lobster', cursive;
+    background-color: violet;
+    color:black;
+    font-size: 1.5rem;
+    border-radius: 30%;
+    
+
+}
+.boton:hover {
+    background-color: yellowgreen;
+    
+}
+
+
